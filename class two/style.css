@@ -1,0 +1,38 @@
+body{
+background: rebeccapurple;
+font-family: cursive;
+}
+
+
+.twitter-box{
+    border: 2px solid black;
+    width: 300px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+ }
+ .twitter-box img{
+ width: 60px;
+ }
+
+
+
+ .twitter-box h4 {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 14px;
+    text-transform: uppercase;
+ }
+
+ .twitter-box button{
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+ }
