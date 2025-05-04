@@ -1,391 +1,512 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* Navbar css */
 
-.navbar-parent{
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.navbar-parent {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.navbar-link a{
-    color: white;
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: 14px;
-    font-weight: 500;
+.navbar-link a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.logo img{
-    width: 45px;
+.logo img {
+  width: 45px;
 }
 /*  */
-
 
 /*  header section css*/
-.header-section{
-    background: linear-gradient(#000000,#00000074),url(./images/pexels-riciardus-307008.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center center;
-    padding: 200px;
-    text-align: center;
+.header-section {
+  background: linear-gradient(#000000, #00000074),
+    url(./images/pexels-riciardus-307008.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 200px;
+  text-align: center;
 }
 
-.header-section h1{
-    font-size: 45px;
-    font-weight: 900;
-    color: white;
+.header-section h1 {
+  font-size: 45px;
+  font-weight: 900;
+  color: white;
 }
-.header-section p{
-    font-size: 15px;
-    color: white;
-    padding: 25px 0;
-    font-weight: 500;
-    width: 70%;
-    margin: 0 auto;
-    line-height: 25px;
+.header-section p {
+  font-size: 15px;
+  color: white;
+  padding: 25px 0;
+  font-weight: 500;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 25px;
 }
 
-.header-section button{
-    background: #2298ff;
-    padding: 16px 40px;
-    border: 1px solid #2298ff;
-    color: white;
-    font-size: 13px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+.header-section button {
+  background: #2298ff;
+  padding: 16px 40px;
+  border: 1px solid #2298ff;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*  */
-
-
 
 /* service section css */
-.service-title{
-    padding: 100px 180px;
-    padding-bottom: 35px;
+.service-title {
+  padding: 100px 180px;
+  padding-bottom: 35px;
 }
 
-.service-title h1{
-    font-size: 40px;
+.service-title h1 {
+  font-size: 40px;
 }
 
-.service-title h1 span{
-    color: #2298ff;
-    font-family: cursive;
+.service-title h1 span {
+  color: #2298ff;
+  font-family: cursive;
 }
 
-.service-title p{
-    font-size: 15px;
-    font-weight: 500;
-    width: 73%;
-    padding: 18px 0;
-    line-height: 25px;
-    color: #8a8a8a;
+.service-title p {
+  font-size: 15px;
+  font-weight: 500;
+  width: 73%;
+  padding: 18px 0;
+  line-height: 25px;
+  color: #8a8a8a;
 }
 /*  */
-
 
 /* service card */
 
 .parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 18px;
-    grid-row-gap: 0px;
-     
-    /* new code */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 0px;
 
-    padding: 100px 180px;
-    padding-top: 0;
-    }
+  /* new code */
 
-
-    /* card css only */
-
-    .card img{
-        width: 100%;
-        height: 300px;
-        border-radius: 10px;
-        object-fit: cover;
-    }
-
-
-    .card h2{
-        padding: 14px 0;
-    }
-
-    .card a {
-        font-weight: 600;
-        color: #2298ff;
-    }
-
-
-    /* about section */
-
-    .about-section {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 0px;
-        /* new css */
-        padding: 100px 180px;
-        padding-top: 50px;
-        }
-
-
-        .about-text h6{
-            font-size: 16px;
-            font-weight: 600;
-            font-family: cursive;
-            color: #2298ff;
-        }
-
-        .about-text h1{
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 60px;
-            padding: 18px 0;
-        }
-        .about-text h1 span{
-          background: #2298ffaf;  
-          display: inline-block;
-          border-radius: 30px;
-          padding: 0 16px;
-        
-        }
-
-        .about-text p{
-            color: #8a8a8a;
-            font-size: 15px;
-            font-weight: 500;
-            line-height: 25px;
-           
-        }
-
-        .about-text a{
-            background: #2298ff;
-            padding: 16px 40px;
-            border: 1px solid #2298ff;
-            color: white;
-            font-size: 13px;
-            text-transform: uppercase;
-            border-radius: 20px;
-            font-weight: 500;
-            font-family: "Montserrat", sans-serif;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 25px;
-        }
-
-        .about-image img{
-            width: 100%;
-            border-radius: 27% 73% 70% 30% / 30% 54% 46% 70% ;
-            border: 12px solid #2298ff79;
-
-        }
-    /*  */
-
-
-    /* subsribe section */
-
-    .subscribe-section{
-        background: linear-gradient(#0000005c,#002058),url(./images/2147770882.jpg);
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: top center;
-        background-attachment: fixed;
-        padding: 200px;
-        text-align: center;
-        margin-bottom: 150px;
-        margin-top: 50px;
-    }
-
-
-    .subscribe-section h1{
-        color: white;
-    }
-
-    .subscribe-section h1 span{
-        color: #2298ff;
-        font-family: cursive;
-    }
-
-    .subscribe-section p{
-        color: #d0d0d0;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 25px;
-        padding: 22px 0;
-    }
-
-    .input-div {
-        background: #ffffff70;
-        width: 45%;
-        margin: 0 auto;
-        text-align: left;
-        /* flex  */
-
-        display: flex;
-        justify-content: space-between;
-        padding: 8px;
-        border-radius: 30px;
-    }
-
-    .input-div input{
-        width: 60%;
-        background: none;
-        border: none;
-        outline: none;
-    }
-    .input-div input::placeholder{
-        color: #ffffff;
-        font-family: "Montserrat", sans-serif;
-        padding-left: 20px;
-
-    }
-
-    .input-div button{
-    background: #2298ff;
-    padding: 16px 20px;
-    border: 1px solid #2298ff;
-    color: white;
-    font-size: 13px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+  padding: 100px 180px;
+  padding-top: 0;
 }
-    /*  */
+
+/* card css only */
+
+.card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card h2 {
+  padding: 14px 0;
+}
+
+.card a {
+  font-weight: 600;
+  color: #2298ff;
+}
+
+/* about section */
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  /* new css */
+  padding: 100px 180px;
+  padding-top: 50px;
+}
+
+.about-text h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #2298ff;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 18px 0;
+}
+.about-text h1 span {
+  background: #2298ffaf;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 0 16px;
+}
+
+.about-text p {
+  color: #8a8a8a;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.about-text a {
+  background: #2298ff;
+  padding: 16px 40px;
+  border: 1px solid #2298ff;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 27% 73% 70% 30% / 30% 54% 46% 70%;
+  border: 12px solid #2298ff79;
+}
+/*  */
+
+/* subsribe section */
+
+.subscribe-section {
+  background: linear-gradient(#0000005c, #002058), url(./images/2147770882.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  padding: 200px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.subscribe-section h1 {
+  color: white;
+}
+
+.subscribe-section h1 span {
+  color: #2298ff;
+  font-family: cursive;
+}
+
+.subscribe-section p {
+  color: #d0d0d0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 22px 0;
+}
+
+.input-div {
+  background: #ffffff70;
+  width: 45%;
+  margin: 0 auto;
+  text-align: left;
+  /* flex  */
+
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.input-div input {
+  width: 60%;
+  background: none;
+  border: none;
+  outline: none;
+}
+.input-div input::placeholder {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+}
+
+.input-div button {
+  background: #2298ff;
+  padding: 16px 20px;
+  border: 1px solid #2298ff;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+/*  */
+
+/* contact css */
+
+.contact-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  /* new css */
+  padding: 0 180px;
+  padding-bottom: 150px;
+}
+
+.contact-form h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #2298ff;
+}
+
+.contact-form h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 18px 0;
+}
+
+.contact-form form input {
+  width: 90%;
+  padding: 20px;
+  margin-top: 15px;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form form textarea {
+  width: 90%;
+  padding: 20px;
+  margin-top: 15px;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 10px;
+  height: 120px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form form button {
+  background: #2298ff;
+  padding: 16px 20px;
+  border: 1px solid #2298ff;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.contact-form {
+  background: #2298ff50;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 8px solid #2298ff6e;
+}
+
+.footer {
+  background: linear-gradient(#002058, #2298ff);
+  padding: 100px 180px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.footer h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.footer p {
+  font-size: 14px;
+  width: 45%;
+  margin: 0 auto;
+  color: white;
+  line-height: 22px;
+  padding-top: 15px;
+}
+
+.social-icon a {
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.footer h6 {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  padding: 50px 0;
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+
+/* mobile responsive  */
+
+@media only screen and (max-width: 990px) {
+  /*  header section css*/
+  .header-section {
+    padding: 80px 20px;
+  }
+  
+  .header-section h1 {
+    font-size: 30px;
+  }
+
+  .header-section p {
+    font-size: 14px;
+    width: 100%;
+
+  }
+
+  /* service */
+
+  .service-title {
+    padding: 80px 20px;
+    padding-bottom: 35px;
+  }
+  
+  .service-title h1 {
+    font-size: 25px;
+  }
+
+  .service-title p {
+    width: 100%;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 18px;
+    /* new code */
+    padding: 80px 20px;
+    padding-top: 0;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+  
+  /* about section */
+
+.about-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    /* new css */
+    padding: 80px 20px;
+    padding-top: 30px;
+  }
+  
+  .about-text h1 {
+    font-size: 25px;
+    line-height: 40px;
+    
+  }
+
+  .about-text h1 br{
+    display: none;
+  }
+
+  /* subscribe */
+.subscribe-section {
+
+    padding: 100px 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  
+  .subscribe-section h1 {
+    font-size: 25px;
+  }
+  
+  .input-div {
+    width: 94%;
 
 
+  }
+  
+  .input-div input {
+    width: 50%;
+  }
+  .input-div button {
+    padding: 14px 16px;
+  }
 
-    /* contact css */
+  /* contact css */
 
-    .contact-main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 0px;
-        /* new css */
-        padding: 0 180px;
-        padding-bottom: 150px;
-        }
+.contact-main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+    /* new css */
+    padding: 0 20px;
+    padding-bottom: 80px;
+  }
+  
+  .contact-form h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px 0;
+  }
 
+  /* footer */
+  .footer {
+    padding: 80px 20px;
+    padding-bottom: 0;
+  }
 
-        .contact-form h6{
-            font-size: 16px;
-            font-weight: 600;
-            font-family: cursive;
-            color: #2298ff;
-        }
+  .footer h3 {
+    font-size: 25px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    width: 100%;
 
-        .contact-form h1{
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 60px;
-            padding: 18px 0;
-        }
+  }
 
-        .contact-form form input{
-            width: 90%;
-            padding: 20px;
-            margin-top: 15px;
-            border: 2px solid gray;
-            outline: none;
-            border-radius: 10px;
-            font-family: "Montserrat", sans-serif;
+  .footer h6 {
+    padding: 50px 0;
+    padding-bottom: 50px;
+  }
 
-        }
-
-        .contact-form form textarea{
-            width: 90%;
-            padding: 20px;
-            margin-top: 15px;
-            border: 2px solid gray;
-            outline: none;
-            border-radius: 10px;
-            height: 120px;
-            font-family: "Montserrat", sans-serif;
-        }
-
-        .contact-form form button{
-            background: #2298ff;
-            padding: 16px 20px;
-            border: 1px solid #2298ff;
-            color: white;
-            font-size: 13px;
-            text-transform: uppercase;
-            border-radius: 20px;
-            font-weight: 500;
-            font-family: "Montserrat", sans-serif;
-            margin-top: 20px;
-        }
-
-        .contact-form{
-            background: #2298ff50;
-            padding: 30px;
-            border-radius: 10px;
-        }
-
-        .contact-image img{
-            width: 100%;
-            height: 650px;
-            object-fit: cover;
-            border-radius: 10px;
-            border: 8px solid #2298ff6e;
-        }
-
-        .footer{
-            background: linear-gradient(#002058,#2298ff);
-            padding: 100px 180px;
-            text-align: center;
-            padding-bottom: 0;
-        }
-
-        .footer h3{
-            font-size: 30px;
-            color: white;
-        }
-
-        .footer p{
-            font-size: 14px;
-            width: 45%;
-            margin: 0 auto;
-            color: white;
-            line-height: 22px;
-            padding-top: 15px;
-        }
-
-        .social-icon a{
-         color: white;
-         font-size: 22px;
-         margin-top: 20px;
-         display: inline-block;
-        }
-
-
-        .footer h6{
-            font-size: 13px;
-            font-weight: 400;
-            color: white;
-            padding: 50px 0;
-            border-top: 1px solid white;
-            margin-top: 20px;
-        }
+}
