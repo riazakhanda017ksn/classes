@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+a,input,textarea,span{
+font-family: "Rubik", sans-serif;
+
+}
+/* \navbar */
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: relative;
+    z-index: 11;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.cart a img{
+    width: 40px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+/*  */
+
+
+/* hero section */
+.hero-section{
+    background: url(./images/h-hero.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 190px;
+    padding-bottom: 700px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-section h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 105px;
+}
+.hero-section p{
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-top: 20px;
+    color: #ffffff94;
+}
+/*  */
+
+
+/* search bar css */
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    border: 1px solid #ffffff94;
+    width: 400px;
+    margin: 0 auto;
+    background: #ffffff3a;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.search-bar a img{
+    width: 45px;
+    margin-top: 3px;
+} 
+
+.search-bar form input{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.search-bar form input::placeholder{
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.icon{
+    position: absolute;
+    left: 16.1%;
+    margin-top: 140px;
+}
+.icon img{
+    width: 100px;
+}
+/*  */
