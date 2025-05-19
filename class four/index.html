@@ -105,7 +105,213 @@ https://animate.style/
 
 
 
+
+    <!-- procuct carousel -->
+
+   <div class="carousel-container">
+
+    <h2>Best Selling Product</h2>
+
+    <div class="product-category">
+      <h6 class="bg-white">Chair</h6>
+      <h6>Sofa</h6>
+      <h6>Beds</h6>
+      <h6>Lamps</h6>
+    </div>
+
+    <!-- slider coder -->
+     
+    <div class="carousel-track" id="carouselTrack">
+
+    <!-- Repeat items 1-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p1.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+     <!-- Repeat items 2-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p2.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+       <!-- Repeat items 3-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p2.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+       <!-- Repeat items 4-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p2.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+       <!-- Repeat items 5-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p4.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+
+       <!-- Repeat items 6-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p2.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+       <!-- Repeat items 7-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p2.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
+
+       <!-- Repeat items 8-->
+    <div class="carousel-item">
+        
+        <img class="product-img" src="./images/p3.png" alt="">
+
+        <div class="product-description">
+
+          <p>Chair</p>
+          <h4>Sakarias Armchair</h4>
+          <img src="./images/star.png" alt="">
+           
+          <div class="pricing">
+            <h4>$399</h4>
+            <img src="./images/Plus.png" alt="">
+          </div>
+          
+        </div>
+    </div>
+    <!--  -->
     
+  
+  </div>
+
+    <!--  -->
+
+  </div>
     
+
+
+    <!--  -->
+
+    
+  <script>
+    
+  const track = document.getElementById('carouselTrack');
+  let position = 0;
+  const slideWidth = track.offsetWidth / 2; // full slide of 4 items
+
+  function moveCarousel() {
+    position -= slideWidth;
+    if (Math.abs(position) >= track.scrollWidth / 2) {
+      position = 0;
+    }
+    track.style.transform = `translateX(${position}px)`;
+  }
+  setInterval(moveCarousel, 3000);
+
+</script>
+
 </body>
 </html>
