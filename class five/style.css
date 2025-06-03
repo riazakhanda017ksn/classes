@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.navbar{
+    z-index: 2;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+    background: none;
+}
+
+.navbar-brand svg{
+color: white;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.dropdown-menu li a{
+    color: black !important;
+}
+
+
+.language-and-contact-us{
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.language{
+    margin-top: 20px;
+}
+
+.language-item{
+    color: white !important;
+    transition: .3s ease-in-out;
+}
+.language-item:hover{
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: underline;
+}
+
+.lets-talk{
+    color: white !important;
+    transition: .3s ease-in-out;
+}
+  
+
+.lets-talk:hover{
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* slider item */
+#carouselExampleFade{
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+
+}
+.bg-one{
+    background:linear-gradient(#000000a4,#0000008f),url(./img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 150px;
+    color: white;
+    text-align: center;
+    padding-top: 320px;
+  
+}
+
+.bg-two{
+    background:linear-gradient(#0000009c,#0000009a),url(./img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 150px;
+    color: white;
+    text-align: center;
+        padding-top: 320px;
+
+
+}
+
+.bg-three{
+    background:linear-gradient(#0000008a,#000000b3),url(./img/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 150px;
+    color: white;
+    text-align: center;
+        padding-top: 320px;
+
+}
+
+.carousel-item h6{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.carousel-item h1{
+    font-size: 70px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.button-flex a{
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 700;
+text-decoration: none;
+display: inline-block;
+border: 1px solid white;
+padding: 13px 30px;
+margin-right: 10px;
+border-radius: 6px;
+margin-top: 20px;
+transition: .3s ease-in-out;
+}
+
+.contact{
+    background: white;
+    color: black;
+}
+
+.contact:hover{
+    background: none;
+    color: white !important;
+}
+
+.white{
+    color: white;
+    
+}
+
+.white:hover{
+    background: white;
+    color: black !important;
+}
+
+.based-on-king-dom{
+    margin: 20px 0;
+}
+.based-on-king-dom span{
+    display: inline-block;
+    width: 1px;
+    height: 120px;
+    background: white;
+}
+
+.based-on-king-dom p{
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #ffffff36;
+    width: 200px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #ffffff36;
+    color: #ffffff;
+}
