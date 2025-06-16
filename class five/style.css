@@ -176,3 +176,52 @@ transition: .3s ease-in-out;
     background: #ffffff36;
     color: #ffffff;
 }
+
+/* story-section css */
+
+.content-item p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.content-item h1{
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.learn-more{
+    text-align: end;
+}
+
+.learn-more a{
+    color: #000000 !important;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+  
+
+.learn-more a:hover{
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    transform: scale(1.4) !important
+}
+
+.story-img img{
+    width: 100%;
+}
+
+.our-mission h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.our-mission p{
+    margin-bottom: 32px;
+    font-size: 18px;
+    color: gray;
+}
