@@ -225,3 +225,75 @@ transition: .3s ease-in-out;
     font-size: 18px;
     color: gray;
 }
+
+/* partner section */
+
+.partner-section{
+    background: #F1F1F1;
+    padding: 100px 0;
+}
+
+.partner-title h2{
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+.line {
+    display: inline-block;
+    width: 90px;
+    height: 0.5px;
+    background: black;
+}
+
+.partner-icon{
+    position: relative;
+    left: 20px;
+}
+
+
+.partner-title p{
+    font-weight: 500;
+}
+
+.partner-title small{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+.partner-icon span{
+display: inline-block;
+width: 60px;
+height: 60px;
+background: white;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+
+.image-box{
+text-align: center;
+}
+
+.image-box img{
+    width: 100%;
+}
+
+.image-box p{
+       font-weight: 500;
+       margin-top: 15px;
+}
+
+.image-box small{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
+    width: 50px;
+    border-radius: 10px;
+}
